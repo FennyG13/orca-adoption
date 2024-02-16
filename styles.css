@@ -1,0 +1,74 @@
+a {
+  color: #0044cc;
+}
+
+body {
+  background: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: fit-content;
+  margin: 0 50px;
+}
+
+button {
+  background-color: #000;
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  line-height: 22px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+}
+
+h2 {
+  font-size: 32px;
+}
+
+hr {
+  border: 1px solid #000;
+  margin-top: 50px;
+}
+
+img {
+  border-radius: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  width: 600px;
+}
+
+.ecotypes {
+  color: #3e93de;
+  font-weight: 700;
+}
+
+.footer {
+  color: #0044cc;
+  font-size: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.greeting {
+  color: #ffffff;
+  background: #000;
+  font-size: 54px;
+  text-align: center;
+  width: max;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.orca {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
